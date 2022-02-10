@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.alick.library",
+    "module": "jiagu",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jiagu-1.0.0.jar",
+          "url": "jiagu-1.0.0.jar",
+          "size": 2867,
+          "sha512": "8d5f2164956258da777c41c726c07460484aa5b0bfbe83ccea9dfc98b62302e922ee11f009665418c18d2e92b05273f888607aab0364135cd2ccfbdbf5e729b2",
+          "sha256": "6521aa09bf941a740c66cd9d15694d1590208619ab74273f6aa1f7dd0976689a",
+          "sha1": "bd63dd177946c35968b3e8e9759c1fb1b681b8c5",
+          "md5": "ef70e90bef85dc66276859fd7726313d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.6.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jiagu-1.0.0.jar",
+          "url": "jiagu-1.0.0.jar",
+          "size": 2867,
+          "sha512": "8d5f2164956258da777c41c726c07460484aa5b0bfbe83ccea9dfc98b62302e922ee11f009665418c18d2e92b05273f888607aab0364135cd2ccfbdbf5e729b2",
+          "sha256": "6521aa09bf941a740c66cd9d15694d1590208619ab74273f6aa1f7dd0976689a",
+          "sha1": "bd63dd177946c35968b3e8e9759c1fb1b681b8c5",
+          "md5": "ef70e90bef85dc66276859fd7726313d"
+        }
+      ]
+    }
+  ]
+}
